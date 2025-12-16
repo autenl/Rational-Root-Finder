@@ -60,6 +60,3 @@ def find_rational_roots(coefficients):
             rational_roots.append(-1 * possible_root)
 
     return rational_roots
-
-
-print(find_rational_roots([-990, 2093, -1470, 343]))
